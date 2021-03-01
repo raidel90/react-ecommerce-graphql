@@ -11,6 +11,4 @@ const CartIcon = ({ toggleCartHidden, itemCount }) => (
   </div>
 );
 
-
-
 export default CartIcon;

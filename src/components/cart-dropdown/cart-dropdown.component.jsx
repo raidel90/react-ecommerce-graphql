@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { withRouter } from 'react-router-dom';
 
 import CustomButton from '../custom-button/custom-button.component';
@@ -28,6 +27,5 @@ const CartDropdown = ({ cartItems, history, toggleCartHidden }) => (
     </CustomButton>
   </div>
 );
-
 
 export default withRouter(CartDropdown);
